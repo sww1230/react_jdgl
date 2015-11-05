@@ -1,0 +1,26 @@
+
+.row_compon > div,.row_compon > input{
+    height: 45px;
+    background-color: inherit;
+    line-height: 45px;
+    border: none;
+}
+
+.row_compon > input{
+    border-bottom: 1px solid #d2d2d2;
+    min-width: 0;
+    line-height: 35px;
+    color: #5E5E5F;
+}
+.row_compon > input:focus{
+    border-bottom: 1px solid #5cae9f;
+}
+.row_compon > input.g_borderNo{ border: none;}
+
+.row_compon input{ display: block; background-color: inherit;}
+
+input[placeholder]{
+	color: #333;
+	font-size: 0.8em;
+}
+
